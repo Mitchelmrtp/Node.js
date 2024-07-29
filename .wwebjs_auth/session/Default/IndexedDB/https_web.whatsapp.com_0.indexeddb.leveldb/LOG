@@ -1,0 +1,29 @@
+2024/07/29-06:03:15.632 2d18 Reusing MANIFEST C:\Users\M1TCH3L\Desktop\ALEIA-AI\ALE-ai\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/29-06:03:15.633 2d18 Recovering log #558
+2024/07/29-06:03:15.669 2d18 Reusing old log C:\Users\M1TCH3L\Desktop\ALEIA-AI\ALE-ai\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000558.log 
+2024/07/29-06:03:16.898 2d18 Level-0 table #571: started
+2024/07/29-06:03:16.904 2d18 Level-0 table #571: 366708 bytes OK
+2024/07/29-06:03:16.904 2d18 Delete type=0 #558
+2024/07/29-06:03:16.905 2d18 Manual compaction at level-0 from '\x00I\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00J\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/07/29-06:03:18.074 2d18 Compacting 1@1 + 9@2 files
+2024/07/29-06:03:18.134 2d18 Generated table #572@1: 63746 keys, 2228434 bytes
+2024/07/29-06:03:18.163 2d18 Generated table #573@1: 12625 keys, 2174107 bytes
+2024/07/29-06:03:18.187 2d18 Generated table #574@1: 4309 keys, 2164637 bytes
+2024/07/29-06:03:18.209 2d18 Generated table #575@1: 4590 keys, 2155987 bytes
+2024/07/29-06:03:18.258 2d18 Generated table #576@1: 32520 keys, 2254229 bytes
+2024/07/29-06:03:18.299 2d18 Generated table #577@1: 24490 keys, 2195848 bytes
+2024/07/29-06:03:18.355 2d18 Generated table #578@1: 61756 keys, 2201724 bytes
+2024/07/29-06:03:18.448 2d18 Generated table #579@1: 103288 keys, 2253377 bytes
+2024/07/29-06:03:18.516 2d18 Generated table #580@1: 75653 keys, 1670672 bytes
+2024/07/29-06:03:18.516 2d18 Compacted 1@1 + 9@2 files => 19299015 bytes
+2024/07/29-06:03:18.517 2d18 compacted to: files[ 0 0 9 0 0 0 0 ]
+2024/07/29-06:03:18.517 2d18 Delete type=2 #560
+2024/07/29-06:03:18.517 2d18 Delete type=2 #561
+2024/07/29-06:03:18.517 2d18 Delete type=2 #562
+2024/07/29-06:03:18.517 2d18 Delete type=2 #563
+2024/07/29-06:03:18.517 2d18 Delete type=2 #564
+2024/07/29-06:03:18.517 2d18 Delete type=2 #565
+2024/07/29-06:03:18.517 2d18 Delete type=2 #566
+2024/07/29-06:03:18.517 2d18 Delete type=2 #567
+2024/07/29-06:03:18.517 2d18 Delete type=2 #568
+2024/07/29-06:03:18.517 2d18 Delete type=2 #571

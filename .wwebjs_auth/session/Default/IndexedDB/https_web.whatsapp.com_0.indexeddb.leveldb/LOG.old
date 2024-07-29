@@ -1,0 +1,29 @@
+2024/07/29-06:01:51.914 3958 Reusing MANIFEST C:\Users\M1TCH3L\Desktop\ALEIA-AI\ALE-ai\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/29-06:01:51.914 3958 Recovering log #546
+2024/07/29-06:01:51.978 3958 Reusing old log C:\Users\M1TCH3L\Desktop\ALEIA-AI\ALE-ai\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000546.log 
+2024/07/29-06:01:53.153 61b8 Level-0 table #559: started
+2024/07/29-06:01:53.161 61b8 Level-0 table #559: 646695 bytes OK
+2024/07/29-06:01:53.161 61b8 Delete type=0 #546
+2024/07/29-06:01:53.162 61b8 Manual compaction at level-0 from '\x00H\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00I\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/07/29-06:01:54.281 40e0 Compacting 1@1 + 9@2 files
+2024/07/29-06:01:54.345 40e0 Generated table #560@1: 63438 keys, 2228052 bytes
+2024/07/29-06:01:54.374 40e0 Generated table #561@1: 11980 keys, 2173558 bytes
+2024/07/29-06:01:54.398 40e0 Generated table #562@1: 4301 keys, 2164757 bytes
+2024/07/29-06:01:54.420 40e0 Generated table #563@1: 5265 keys, 2158209 bytes
+2024/07/29-06:01:54.473 40e0 Generated table #564@1: 32226 keys, 2255801 bytes
+2024/07/29-06:01:54.518 40e0 Generated table #565@1: 24341 keys, 2192218 bytes
+2024/07/29-06:01:54.574 40e0 Generated table #566@1: 63307 keys, 2202841 bytes
+2024/07/29-06:01:54.657 40e0 Generated table #567@1: 103293 keys, 2253980 bytes
+2024/07/29-06:01:54.716 40e0 Generated table #568@1: 73396 keys, 1621626 bytes
+2024/07/29-06:01:54.716 40e0 Compacted 1@1 + 9@2 files => 19251042 bytes
+2024/07/29-06:01:54.716 40e0 compacted to: files[ 0 0 9 0 0 0 0 ]
+2024/07/29-06:01:54.716 40e0 Delete type=2 #548
+2024/07/29-06:01:54.716 40e0 Delete type=2 #549
+2024/07/29-06:01:54.716 40e0 Delete type=2 #550
+2024/07/29-06:01:54.716 40e0 Delete type=2 #551
+2024/07/29-06:01:54.716 40e0 Delete type=2 #552
+2024/07/29-06:01:54.716 40e0 Delete type=2 #553
+2024/07/29-06:01:54.716 40e0 Delete type=2 #554
+2024/07/29-06:01:54.716 40e0 Delete type=2 #555
+2024/07/29-06:01:54.716 40e0 Delete type=2 #556
+2024/07/29-06:01:54.716 40e0 Delete type=2 #559
