@@ -1,9 +1,11 @@
 require('dotenv').config();
 const fs = require('fs');
+const path = require('path');
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
+// Configuración de la API de Google Generative AI
 const genAI = new GoogleGenerativeAI(process.env.API_KEY);
 const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
 
@@ -14,14 +16,17 @@ const client = new Client({
 let conversations = {};
 let messageBuffers = {};
 
+// Manejo del código QR para la autenticación
 client.on('qr', (qr) => {
     qrcode.generate(qr, { small: true });
 });
 
+// Cliente listo
 client.on('ready', () => {
     console.log('Client is ready!');
 });
 
+// Manejo de mensajes recibidos
 client.on('message', async msg => {
     const from = msg.from;
     if (!conversations[from]) {
@@ -46,13 +51,18 @@ client.on('message', async msg => {
 
         const responseText = await getAIResponse(userInput, from);
         msg.reply(responseText);
-    }, 5000); // 30000 milisegundos = 30 segundos
+    }, 5000); // 5000 milisegundos = 5 segundos
 });
 
+// Función para obtener la respuesta de la IA
 async function getAIResponse(userInput, userId) {
     try {
         // Leer el prompt base desde el archivo
         let prompt = fs.readFileSync('prompt.txt', 'utf-8');
+
+        // Reemplazar el marcador [mes] con el mes calculado
+        const futureMonth = getFutureMonth();
+        prompt = prompt.replace('[mes]', futureMonth);
 
         // Añadir el historial de la conversación y el input actual del usuario
         prompt += `\n\nHistorial de la conversación:\n${conversations[userId].chatHistory.join('\n')}\nUsuario: ${userInput}\nAsistente:`;
@@ -74,4 +84,13 @@ async function getAIResponse(userInput, userId) {
     }
 }
 
+// Función para obtener el mes futuro en formato MM
+function getFutureMonth() {
+    const now = new Date();
+    now.setMonth(now.getMonth() + 2);
+    const futureMonth = now.toLocaleString('es-ES', { month: '2-digit' });
+    return futureMonth;
+}
+
+// Inicializa el cliente
 client.initialize();
